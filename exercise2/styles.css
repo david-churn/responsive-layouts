@@ -1,0 +1,83 @@
+/* 2/14/2019  David Churn cloned from exercise #1 */
+
+/* Global declarations */
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+body {
+  background: maroon;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  border: solid 1px black;
+  list-style-type: none;
+  padding: 0.5em;
+}
+h1, h2 {
+  text-align: center;
+}
+p {
+  max-width: 48em;
+  margin: 1% 0;
+  padding: 0.5em;
+}
+img {
+  border: solid 1px black;
+}
+footer {
+  border: solid 1px black;
+}
+footer div {
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background: orange;
+  }
+  .top-right {
+    width: 50%
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  main {
+    margin: 5%;
+  }
+  h1, h2 {
+    text-align:left;
+  }
+  main div {
+    border: solid 1px black;
+  }
+  ul  {
+    display:flex;
+  }
+  .flex1 {
+    flex:1;
+  }
+}
+/* Large devices (tablets, 1040px and up) */
+@media (min-width: 1040px) {
+  body {
+    background: gold;
+  }
+  .inblock {
+  display:inline-block;
+  }
+  .contact-tx {
+    display: none;
+  }
+}
