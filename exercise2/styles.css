@@ -22,16 +22,39 @@ li {
   list-style-type: none;
   padding: 0.5em;
 }
+main {
+  border: solid 1px black;
+}
 h1, h2 {
   text-align: center;
 }
 p {
   max-width: 48em;
-  margin: 1% 0;
-  padding: 0.5em;
+  margin: 0 1%;
+  line-height: 1.2em;
 }
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo {
+  heigth: 2em;
+  width:auto;
+}
+.iconic {
+  height: 1.5em;
+  width: auto;
+}
+.container {
   border: solid 1px black;
+  padding: 1em;
+}
+.contact-tx {
+  font-weight: bold;
+}
+.inblock {
+  padding: 0.5em 0;
 }
 footer {
   border: solid 1px black;
@@ -41,7 +64,6 @@ footer div {
   margin: 0;
   text-align: center;
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
