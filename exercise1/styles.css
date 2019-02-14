@@ -1,0 +1,85 @@
+/* 2/12/2019  David Churn created */
+
+/* Global declarations */
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+body{
+  background: lightgreen;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  border: solid 1px black;
+  list-style-type: none;
+  min-height: 1.5em;
+}
+h1 {
+  text-align: center;
+}
+p {
+  max-width: 48em;
+  margin: 1% 0;
+}
+.box {
+  border: solid 1px black;
+  margin: 4%;
+}
+footer {
+  border-top: solid 1px black;
+}
+footer div {
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background: lightblue;
+  }
+  main {
+    margin: 5%;
+  }
+  h1 {
+    text-align:left;
+  }
+  main div {
+    margin: 0%;
+  }
+  ul, .container {
+    display:flex;
+  }
+  .box {
+    margin: 0;
+  }
+  .flex1 {
+    flex:1;
+  }
+  .flex3 {
+    flex:3;
+  }
+  .flex6 {
+    flex:6;
+  }
+  .b-right {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .inblock {
+    display:inline-block;
+  }
+  .empty {
+    width:70%;
+  }
+}
